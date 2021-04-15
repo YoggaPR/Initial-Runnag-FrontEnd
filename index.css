@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+.navbar{
+    display: flex;
+    padding: 30px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+a{
+    color: #000;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.primary-menu{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.section-1{
+    background-color: #7cffcb;
+    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+}
+
+.ETHOS{
+    padding: 20px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+}
+
+.ethos-spacing{
+    margin: 20px;
+    background: transparent;
+}
+
+.ethic{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background: transparent;
+}
+
+.ethic .col-50{
+    position: relative;
+    width: 42%;
+    background: transparent;
+}
+
+.ethic .col-50 .ethos-title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 36px;
+    padding-bottom: 15px;
+    background: transparent;
+    color: #fff;
+}
+
+.ethic .col-50 .ethos-text{
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    background: transparent;
+}
+
+.ethic .col-50 .image{
+    width: 100%;
+    height: 500px;
+    background: transparent;
+}
+
+
+.ethic .col-50 .image img{
+    display: block;
+    margin: 50px auto auto auto;
+    height: 400px;
+    width: 600px;    
+    border-radius: 10px;
+}
+
+.soft{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.soft .col-50{
+    position: relative;
+    width: 42%;
+}
+
+.soft .col-50 .soft-title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+.soft .col-50 .soft-text{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.soft .col-50 .soft-image{
+    width: 100%;
+    height: 500px;
+}
+
+
+.soft .col-50 .soft-image img{
+    display: block;
+    margin: 50px auto auto auto;
+    height: 400px;
+    width: 600px;    
+    border-radius: 10px;
+}
+
+.container{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.char-section{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+    display: flex;
+}
+
+.hero{
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+}
+
+.hero:hover{
+    flex: 3;
+}
+
+.heroImg{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: grayscale(80%);
+    transition: .3s;
+}
+
+.hero:hover .heroImg{
+    filter: grayscale(0);
+}
+
+.heroInfo{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: .2s;
+    font-size: xx-large;
+    color: #fff;
+    background: transparent;
+}
+
+.heroInfo h2{
+    font-family: 'Montserrat';
+    background: transparent;
+}
+
+.heroInfo h4{
+    font-family: 'Montserrat';
+    background: transparent;
+}
+
+.hero:hover .heroInfo{
+    opacity: 1;
+    bottom: 60px;
+    transition-delay: .6s;
+    background-color: transparent;
+}
